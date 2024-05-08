@@ -1,0 +1,28 @@
+.container-menu{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "grid flex";
+}
+
+.item{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: double;
+    font-size: 1.5rem;
+    padding: 50% 25% 50% 25%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+#grid{
+    grid-area: grid;
+    text-align: center;
+    background-color: rgb(65, 131, 62);
+    
+}
+
+#flex{
+    grid-area: flex;
+    text-align: center;
+    background-color: bisque;
+}

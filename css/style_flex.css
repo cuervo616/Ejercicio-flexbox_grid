@@ -1,0 +1,47 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.item{
+    border: 3px solid black;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    /*margin: 2%; */
+}
+
+.header{
+    background-color: rgb(48, 48, 83);
+    height: 20%;
+}
+.footer{
+    height: 10%;
+    background-color: rgb(48, 48, 83);
+}
+
+.container-main{
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+}
+
+.navbar{
+    background-color: rgb(79, 75, 75);
+    width: 5%;
+    padding-top: 10%;
+}
+.main{
+    padding-top: 10%;
+    width: 80%;
+    background-color: rgb(23, 42, 36);
+}
+.aside{
+    padding-top: 10%;
+    width: 15%;
+    background-color: rgb(92, 50, 38);
+}

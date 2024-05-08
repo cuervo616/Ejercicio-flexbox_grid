@@ -1,0 +1,41 @@
+body{
+    width: 100vw; /* Ocupa el 100% del ancho de la ventana */
+    height: 100vh;
+}
+.grid-item{
+    border: 1px red solid;
+    
+}
+
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "header header header"
+    "navbar main aside"
+    "footer footer footer";
+    grid-template-rows: 10% auto 10%;
+}
+
+.header{
+    grid-area: header;
+    background-color: beige;
+}
+
+.navbar{
+    grid-area: navbar;
+    background-color: yellowgreen;
+}
+.main{
+    background-color: burlywood;
+    grid-area: main;
+}
+.aside{
+    background-color: chocolate;
+    grid-area: aside;
+}
+.footer{
+    background-color: black;
+    color: white;
+    grid-area: footer;
+}
